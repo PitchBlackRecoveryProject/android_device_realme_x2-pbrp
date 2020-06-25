@@ -11,7 +11,7 @@ jobs:
       VENDOR: 'realme'
       CODENAME: 'x2'
       BUILD_LUNCH: 'omni_x2-eng'
-      # Trigger 0
+      # Trigger 1
       # Remove the following when Publishing Official
       TEST_BUILD: 'true'
       # Only for Official Build, uncomment following
