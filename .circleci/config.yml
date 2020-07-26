@@ -5,17 +5,18 @@ jobs:
       # new all-in-one docker image
       - image: fr3akyphantom/droid-builder:latest
     environment:
-      MANIFEST_BRANCH: 'android-9.0'
+      USE_SECRET_BOOTABLE: 'true'
+      SECRET_BR: 'redesign3'
       VERSION: '2.9.1'
       MAINTAINER: '@firewolfxda'
       VENDOR: 'realme'
       CODENAME: 'x2'
       BUILD_LUNCH: 'omni_x2-eng'
-      # Trigger 2
+      PB_DISABLE_DEFAULT_TREBLE_COMP: 'true'
       # Remove the following when Publishing Official
-      # TEST_BUILD: 'true'
+      TEST_BUILD: 'true'
       # Only for Official Build, uncomment following
-      PB_OFFICIAL: 'true'
+      #PB_OFFICIAL: 'true'
     working_directory: /home/builder/pitchblack
     steps:
       - run:
