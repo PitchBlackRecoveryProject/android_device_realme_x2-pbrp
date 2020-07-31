@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      # new all-in-one docker image 1
+      # new all-in-one docker image 2
       - image: fr3akyphantom/droid-builder:latest
     environment:
       MANIFEST_BRANCH: 'android-9.0'
