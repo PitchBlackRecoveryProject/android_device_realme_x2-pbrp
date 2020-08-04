@@ -1,5 +1,5 @@
 
-[![PBRP](https://circleci.com/gh/PitchBlackRecoveryProject/android_device_realme_x2-pbrp/tree/q-pre.svg?style=svg)](https://circleci.com/gh/PitchBlackRecoveryProject/android_device_realme_x2-pbrp/tree/q-pre)
+[![PBRP](https://circleci.com/gh/PitchBlackRecoveryProject/android_device_xiaomi_ido-pbrp/tree/android-9.0.svg?style=svg)](https://circleci.com/gh/PitchBlackRecoveryProject/android_device_xiaomi_ido-pbrp/tree/android-9.0)
 
 
 Device configuration for Realme X2
