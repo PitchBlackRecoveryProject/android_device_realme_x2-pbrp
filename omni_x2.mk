@@ -16,7 +16,7 @@ $(call inherit-product, vendor/pb/config/common.mk)
 PRODUCT_NAME := omni_x2
 PRODUCT_DEVICE := x2
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := realme x2
+PRODUCT_MODEL := x2
 PRODUCT_MANUFACTURER := realme
 
 # HACK: Set vendor patch level
